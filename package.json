@@ -1,5 +1,5 @@
 {
-  "name": "fast_varint_codec",
+  "name": "fast-varint-codec",
   "version": "1.0.0",
   "description": "High-performance variable-length integer codec using fixed sizes (1, 2, 4, 8 bytes). The first 2 bits encode length, enabling fast, branch-efficient decoding. Uses simple bitwise ops and BigInt for 64-bit support. Matches low-level performance (comparable to C++) while staying simple and predictable.",
   "homepage": "https://github.com/YevheniiYusenkov/fast_varint_codec#readme",
@@ -26,7 +26,8 @@
   "files": [
     "codec.js",
     "index.cjs",
-    "index.d.ts"
+    "index.d.ts",
+    "README.md"
   ],
   "sideEffects": false,
   "scripts": {
